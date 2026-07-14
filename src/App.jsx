@@ -13,6 +13,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<AddTeam />} />
+           <Route path='/view' element={<ViewTeams />} />
         </Routes>
       </BrowserRouter>
 
